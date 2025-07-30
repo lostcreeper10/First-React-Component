@@ -1,0 +1,123 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; 
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1e293b; 
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li a:hover {
+  color: #5f6063;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #1e293b;
+  text-align: center;
+}
+ 
+.profile {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding-left: 2rem;
+  margin-top: 4rem;
+}
+
+.profile-picture {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;/* Makes it round */
+  border: 2px solid #ccc;
+}
+
+
+.about-me {
+  margin: 1rem;
+  line-height: 1.5;
+  margin-left: 100px;
+}
+
+.skills {
+  position: fixed;
+  top: 70%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.redirect-button {
+  position: fixed;
+  bottom: 75px;
+  left: 131px;
+  z-index: 1000;
+}
+
+.redirect-button a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #24292e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.2s ease;
+}
+
+.redirect-button a:hover {
+  background-color: #333;
+}
+
+.redirect-button a:hover {
+  background-color: #333;
+  transform: scale(1.5);
+}
+
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  padding-left: 43%;
+  
+
+}
